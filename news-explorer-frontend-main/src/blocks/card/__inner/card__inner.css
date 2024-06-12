@@ -1,0 +1,17 @@
+.card__inner {
+ position: absolute;
+ top: 3%;
+ right: 5%;
+ width: calc(100% - 10%);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+ .card__inner {
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+ }
+}

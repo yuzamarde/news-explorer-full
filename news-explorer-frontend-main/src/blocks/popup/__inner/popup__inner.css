@@ -1,0 +1,16 @@
+.popup__inner {
+ position: relative;
+ background-color: #fff;
+ padding: 34px 36px;
+ border-radius: 16px;
+ width: 430px;
+ cursor: default;
+}
+
+@media screen and (max-width: 425px) {
+ .popup__inner {
+  width: 100%;
+  height: 90%;
+  border-radius: 16px 16px 0 0;
+ }
+}

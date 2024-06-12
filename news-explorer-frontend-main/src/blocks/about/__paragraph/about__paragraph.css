@@ -1,0 +1,29 @@
+.about__paragraph {
+ font-family: 'Roboto', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+ max-width: 600px;
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ color: #1a1b22;
+}
+
+.about__paragraph a {
+ color: #2f71e5;
+ text-decoration: none;
+ margin-left: 5px;
+}
+
+.about__paragraph a:hover {
+ text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+ .about__paragraph {
+  font-size: 16px;
+  line-height: 20px;
+  gap: 16px;
+ }
+}

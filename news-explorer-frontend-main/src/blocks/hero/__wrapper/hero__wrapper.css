@@ -1,0 +1,22 @@
+.hero__wrapper {
+ display: flex;
+ flex-direction: column;
+ gap: 96px;
+ margin-bottom: 64px;
+ width: 100%;
+ max-width: 608px;
+}
+
+@media screen and (max-width: 768px) {
+ .hero__wrapper {
+  gap: 56px;
+  max-width: 452px;
+ }
+}
+
+@media screen and (max-width: 425px) {
+ .hero__wrapper {
+  gap: 16px;
+  max-width: 285px;
+ }
+}

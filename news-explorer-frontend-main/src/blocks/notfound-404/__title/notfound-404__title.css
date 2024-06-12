@@ -1,0 +1,33 @@
+.notfound-404__title {
+ font-family: 'Roboto Slab', sans-serif;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ font-size: 252px;
+ font-weight: 900;
+ margin: 0;
+ color: #262626;
+ text-transform: uppercase;
+ letter-spacing: -40px;
+ margin-left: -20px;
+}
+.notfound-404__title > span {
+ text-shadow: -8px 0 0 #fff;
+}
+
+@media screen and (max-width: 768px) {
+ .notfound-404__title {
+  font-size: 200px;
+ }
+}
+
+@media screen and (max-width: 425px) {
+ .notfound-404__title {
+  font-size: 162px;
+  height: 150px;
+  line-height: 162px;
+ }
+}

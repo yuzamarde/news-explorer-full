@@ -1,0 +1,39 @@
+.card {
+ width: 380px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ background-color: #fff;
+ transition: transform 0.2s ease-in-out;
+ border-radius: 16px 16px 0 0;
+ cursor: pointer;
+ position: relative;
+}
+
+.card:hover {
+ transform: translateY(-5px);
+}
+
+@media screen and (min-width: 1441px) {
+ .card {
+  width: 480px;
+ }
+}
+
+@media screen and (min-width: 1025px) {
+ .card {
+  width: 420px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .card {
+  width: 224px;
+ }
+}
+
+@media screen and (max-width: 425px) {
+ .card {
+  width: 288px;
+ }
+}

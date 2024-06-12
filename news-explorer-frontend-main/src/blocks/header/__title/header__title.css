@@ -1,0 +1,21 @@
+.header__title {
+ font-family: 'Roboto Slab Bold', sans-serif;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 24px;
+ text-decoration: none;
+ transition: all 0.3s ease;
+}
+
+.header__title-home {
+ color: var(--color-white);
+}
+
+.header__title-saved {
+ color: var(--color-black);
+}
+
+.header__title:hover,
+.header__title-saved:hover {
+ transform: scale(1.1);
+}

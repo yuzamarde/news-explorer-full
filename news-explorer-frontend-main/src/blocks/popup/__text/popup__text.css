@@ -1,0 +1,12 @@
+.popup__text {
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 17px;
+ text-align: center;
+}
+
+.popup__text-link {
+ color: #2f71e5;
+ text-decoration: none;
+}

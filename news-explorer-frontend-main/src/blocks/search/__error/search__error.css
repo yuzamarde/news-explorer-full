@@ -1,0 +1,9 @@
+.search__error {
+ font-family: 'Inter', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 15px;
+ color: #ff0000;
+ text-align: center;
+ margin-top: 6px;
+}

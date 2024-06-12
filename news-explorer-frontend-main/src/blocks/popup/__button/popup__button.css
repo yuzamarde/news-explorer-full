@@ -1,0 +1,25 @@
+.popup__button {
+ padding: 20px 114px;
+ font-family: 'Roboto', sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 24px;
+ border-radius: 48px;
+ border: none;
+ background-color: #2f71e5;
+ color: #fff;
+ margin-top: 26px;
+ margin-bottom: 3px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.popup__button:hover {
+ background-color: #0051dd;
+}
+
+.popup__button.disabled {
+ background-color: #e6e8eb;
+ color: #b6bcbf;
+ cursor: not-allowed;
+}

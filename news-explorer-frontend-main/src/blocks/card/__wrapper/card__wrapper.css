@@ -1,0 +1,14 @@
+.card__wrapper {
+ position: absolute;
+ top: 3%;
+ right: 5%;
+ display: flex;
+ gap: 5px;
+ align-items: center;
+}
+
+.card__wrapper-saved {
+ display: flex;
+ gap: 5px;
+ align-items: center;
+}

@@ -1,0 +1,15 @@
+.notfound-404__paragraph {
+ font-family: 'Roboto', sans-serif;
+ font-size: 20px;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: #000;
+ margin-top: 0;
+ margin-bottom: 25px;
+}
+
+@media screen and (max-width: 425px) {
+ .notfound-404__paragraph {
+  font-size: 16px;
+ }
+}

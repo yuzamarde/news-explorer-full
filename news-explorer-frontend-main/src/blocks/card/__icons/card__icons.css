@@ -1,0 +1,14 @@
+.card__icons {
+ background-color: var(--bg-white);
+ border-radius: 8px;
+ padding: 8px;
+}
+
+.card__icons svg {
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.card__icons:hover svg {
+ fill: var(--color-black);
+}

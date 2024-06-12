@@ -1,0 +1,24 @@
+.about__image img {
+ width: 464px;
+ height: 464px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin-right: 56px;
+}
+
+@media (max-width: 768px) {
+ .about__image img {
+  width: 232px;
+  height: 232px;
+  margin-right: 32px;
+ }
+}
+
+@media screen and (max-width: 425px) {
+ .about__image img {
+  width: 272px;
+  height: 272px;
+  margin-right: 0px;
+  margin-bottom: 24px;
+ }
+}

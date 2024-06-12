@@ -1,0 +1,11 @@
+.notfound-404__text {
+ font-family: 'Roboto', sans-serif;
+ position: relative;
+ font-size: 16px;
+ font-weight: 700;
+ text-transform: uppercase;
+ color: #262626;
+ margin: 0;
+ letter-spacing: 3px;
+ padding-left: 6px;
+}

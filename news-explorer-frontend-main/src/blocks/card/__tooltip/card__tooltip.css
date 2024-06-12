@@ -1,0 +1,15 @@
+.card__tooltip {
+ background-color: var(--bg-white);
+ border-radius: 8px;
+ padding: 14px 20px;
+}
+
+.card__tooltip p {
+ font-family: 'Roboto', sans-serif;
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 14px;
+ color: var(--color-black);
+ text-align: center;
+ text-transform: capitalize;
+}

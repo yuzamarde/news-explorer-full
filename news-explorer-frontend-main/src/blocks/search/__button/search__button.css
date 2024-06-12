@@ -1,0 +1,25 @@
+.search__button {
+ padding: 21px 68px;
+ border-radius: 48px;
+ position: absolute;
+ right: 0;
+ background-color: #2f71e5;
+ color: #fff;
+ border: none;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 24px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+
+.search__button:hover {
+ background-color: #0053e2;
+}
+
+@media screen and (max-width: 425px) {
+ .search__button {
+  position: static;
+ }
+}

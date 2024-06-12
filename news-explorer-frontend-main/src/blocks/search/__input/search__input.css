@@ -1,0 +1,22 @@
+.search__input {
+ padding: 21px 24px;
+ border-radius: 48px;
+ width: 100%;
+ border: 1px solid #d1d2d6;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 22px;
+}
+
+.search__input:focus {
+ outline: none;
+}
+
+.search__input::placeholder {
+ color: #b6bcbf;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 22px;
+}
